@@ -1,7 +1,6 @@
 {
   "extends": "@mohamed-elrefai/tsconfigs",
   "compilerOptions": {
-    "ignoreDeprecations": "6.0",
     "rootDir": "./",
     "outDir": "dist",
     "typeRoots": [

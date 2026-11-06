@@ -1,7 +1,7 @@
 {
   "name": "nuh",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000n\u0000u\u0000h\u0000\r\u0000 \u0000",
+  "description": "The Black Hole",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,6 +22,6 @@
     "@mohamed-elrefai/tsconfigs": "^1.0.2",
     "@types/node": "^26.6.6",
     "ts-node": "^10.9.2",
-    "typescript": "^7.0.2"
+    "typescript": "^5.9.3"
   }
 }
