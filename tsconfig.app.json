@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "types": ["vite/client", "node"],
+    "lib": ["ES2022", "DOM", "DOM.Iterable"]
+  },
+  "include": ["src/main.ts", "src/scene/**/*.ts", "src/Physics/constants.ts", "src/Physics/black-hole-parameters.ts", "src/Physics/Schwarzschild-metrics.ts", "src/Physics/accretion-disk.ts", "src/Physics/photon-geodesics.ts", "src/Physics/physics.test.ts"]
+}

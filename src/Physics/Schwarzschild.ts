@@ -12,15 +12,5 @@ export class Schwarzschild {
      public radius(): number {
           return (2 * PHYSICS.G * this.mass) / PHYSICS.C ** 2;
      }
-     public GTD(r: number): number {
-          return 1 - this.radius() / r
-     }
-     calculateLocalTime(radius: number, distantTime: number) {
-          if (!Number.isFinite(distantTime) || distantTime < 0) {
-               throw new Error("Time must be a non-negative finite number");
-          }
-
-          return distantTime * this.GTD(radius);
-     }
 
 }
